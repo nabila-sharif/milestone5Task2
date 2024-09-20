@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Dynamic Resume Builder By Nabila Sharif</h1>
+    <form id="resumeForm">
+       <fieldset>
+           <legend>Personal Information </legend>
+
+   <label for="username">Resume URL:</label>      
+    <input type="text" id="username" name="username" required/> <br/>
+
+           <label for="name">Full Name: </label>
+           <input type="text" id="name" name="name" required><br>
+
+           <label for="email">Email Address : </label>
+           <input type="email" id="email" name="email" required><br>
+
+           <label for="phone">phone Number :</label>
+           <input type="phone" id="phone" name="phone" required><br>
+        </feildset><br>
+
+
+
+   <!-- Profile Picture -->    
+   
+ <label for="profilePicture">Profile Picture</label>
+ <input type="file" id="profilePicture" name="profilePicture" accept="image/*" required>
+
+   
+<fieldset>
+    <legend>Education</legend>
+    <label for="education"></label>
+    <textarea id="education" name="education" rows="5" required></textarea>
+</fieldset> <br> 
+
+
+
+<fieldset>
+    <legend>Experience</legend>
+    <label for="experience"></label>
+    <textarea id="experience" name="experience"rows="5" required></textarea> <br>
+</fieldset><br>
+
+<fieldset>
+    <legend>Skills</legend>
+    <label for="skills"></label>
+    <textarea id="skills" name="skills"rows="5" required> </textarea> <br>
+</fieldset><br>
+
+<button type="Submit"> Generate Resume Below</button>
+
+</form>
+   <div id="resumeOutput">
+      <!--Resume Will Be Generated Below-->
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>

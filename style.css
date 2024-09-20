@@ -1,0 +1,95 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin:20px;
+    padding: 0;
+    background: color #8c932c;
+}
+h1{
+    text-align: center;
+    color: hsl(257, 45%, 30%);
+}
+
+form{
+    max-width:600px;
+    margin:auto;
+    background-color:aliceblue;
+    border-radius: 8px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.6);
+    padding: 20px;
+}
+
+fieldset{
+     border: 2px solid #2c2c2c;
+     border-radius: 8px;
+     padding:10px;
+     margin-bottom:10px;
+     background-color:aliceblue;
+
+}
+
+legend {
+    font-weight:bold;
+    text-align:end;
+    color:black;
+}
+
+label{
+    display:contents;
+    margin-top:20;
+    color:rgb(45, 45, 108);
+}
+input,textarea{
+    width:calc(100% - 18px);
+    padding: 7px;
+    margin-top:10px;
+    border:1px solid #2c2c2c;
+    border: radius 4px;
+    box-sizing:border-box;
+    
+    
+}
+
+button{
+    display:block;
+    width: 200px;
+    padding:8px;
+    background-color:#f5f5dc;
+    color:black;
+    border-radius:4px;
+    cursor:pointer;
+    margin-top:8px;
+    font-size:15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+button:hover {
+    background-color:darkseagreen;
+
+}
+
+#resumeOutput{
+    max-width:600px;
+    margin:auto;
+    padding:20px;
+    border:2px solid #2c2c2c;
+    border-radius:8px;
+    background-color:aliceblue;
+    box-shadow:0 4px 8px rgba(0,0,0,0.6);
+}
+
+#resumeOutput{
+    color:black;
+    
+}
+
+.profilePicture {
+    display: black;
+    margin: 0 auto;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgba(11, 7, 211,0.5);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
