@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
+  "dependencies": {
+    "undici-types": "^6.19.8"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^22.5.5"
-  }
+  "license": "ISC"
 }
